@@ -15,6 +15,13 @@ transactions
 • Overall Delinquent rate is 6.06%
 
 
+
+
+
+
+
+
+
 AgeGroup = SWITCH(
 TRUE(),
 'public cust_detail'[customer_age] < 30, "20-30",
@@ -25,6 +32,10 @@ TRUE(),
 "unknown"
 )
 
+
+
+
+
 IncomeGroup = SWITCH(
 TRUE(),
 'public cust_detail'[income] < 35000, "Low",
@@ -32,6 +43,12 @@ TRUE(),
 'public cust_detail'[income] >= 70000, "High",
 "unknown"
 )
+
+
+
+
+
+
 
 week_num2 = WEEKNUM('public cc_detail'[week_start_date])
 Revenue = 'public cc_detail'[annual_fees] + 'public cc_detail'[total_trans_amt] + 'public cc_detail'[interest_earned]
