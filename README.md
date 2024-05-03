@@ -43,7 +43,7 @@ DAX Queries:--
 
 
 IncomeGroup = SWITCH(
-  TRUE(),
+TRUE(),
     'public cust_detail'[income] < 35000, "Low",
     'public cust_detail'[income] >= 35000 && 'public cust_detail'[income] <70000, "Med",
     'public cust_detail'[income] >= 70000, "High",
