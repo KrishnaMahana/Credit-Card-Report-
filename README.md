@@ -1,11 +1,11 @@
 # Credit-Card-Report-
 
 
- WoW change:--
+## WoW change:--
 
    • Revenue increased by 28.8%,
 
- Overview YTD:
+## Overview YTD:
 
   • Overall revenue is 57M
 
@@ -18,7 +18,7 @@
   • Blue & Silver credit card are contributing to 93% of overall
 
  
- Transactions:--
+## Transactions:--
 
   • TX, NY & CA is contributing to 68%
 
@@ -27,7 +27,7 @@
   • Overall Delinquent rate is 6.06%
 
 
-DAX Queries:--
+## DAX Queries:--
 
   AgeGroup = SWITCH(
 
